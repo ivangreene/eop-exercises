@@ -1,0 +1,11 @@
+Q: Assuming that int is a 32-bit two's complement type, determine the exact
+definition and result space.
+
+[ This question refers to the square function with parameter of type int and
+return value of type int. ]
+
+A: The defintion space is [-46340, 46340]. The result space is { x * x | x in Z, -46340 <= x <= 46340 }.
+
+Explanation: the range of int for a 32-bit two's complement is
+[-2147483648, 2147483647]. The largest integer in this range whose square is also
+within this range is 46340.
